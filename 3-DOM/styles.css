@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(254, 254, 254);
+  background: linear-gradient(
+    183deg,
+    rgba(254, 254, 254, 1) 0%,
+    rgba(237, 225, 34, 0.4990371148459384) 48%,
+    rgba(0, 212, 255, 1) 89%
+  );
+}
+
+div {
+  min-height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  text-shadow: 3px 5px 5px white;
+}
+
+div.eyesR {
+  height: 60%;
+  background-color: beige;
+  background: url('./max_Shrecks_1.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 4rem;
+}
+
+div.eyesL {
+  height: 60%;
+  background-color: beige;
+  background: url('./max_Shrecks_2.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 4rem;
+}
